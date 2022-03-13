@@ -1,3 +1,6 @@
+*{
+  font-style: italic !important;
+}
 @font-face {
   font-display: swap;
   src: url("../fonts/KaushanScript-Regular.woff") format("woff"), url("../fonts/KaushanScript-Regular.woff2") format("woff2");
@@ -1058,6 +1061,7 @@ body.dm-light .pan-loader .shadow {
   display: block;
   position: relative;
   background-color: #ffffff;
+  padding-bottom: 25px;
 }
 
 .page-header__top {
@@ -1804,7 +1808,7 @@ body.dm-light .pan-loader .shadow {
 }
 
 .product-item__title {
-  padding: 40px 20px 10px;
+  padding: 20px 15px 10px;
   font-size: 20px;
   font-weight: 700;
 }
@@ -1823,13 +1827,13 @@ body.dm-light .pan-loader .shadow {
 }
 
 .product-item__desc {
-  padding: 0 20px 35px;
+  padding: 0 10px 25px;
   font-size: 14px;
   font-weight: 400;
 }
 
 .product-item__select {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .product-item__active {
@@ -1946,7 +1950,7 @@ body.dm-light .pan-loader .shadow {
 }
 
 .product-item__info {
-  padding: 15px 30px 40px;
+  padding: 15px 30px 10px;
 }
 
 .product-item__price {
@@ -2220,7 +2224,7 @@ body.dm-light .pan-loader .shadow {
   margin: 0;
   color: #ffffff !important;
   font-family: 'KaushanScript';
-  font-size: 80px;
+  font-size: 72px;
   font-style: normal;
   font-weight: 400;
   letter-spacing: normal;
@@ -2229,7 +2233,7 @@ body.dm-light .pan-loader .shadow {
 
 .first-screen__desc {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: #ffffff;
   font-size: 30px;
   font-style: normal;
@@ -3664,7 +3668,7 @@ body.dm-light .pan-loader .shadow {
 .product-full-card__tabs .uk-subnav > li {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 33%;
+  width: 50%;
 }
 
 .product-full-card__tabs .uk-subnav > li > a {
